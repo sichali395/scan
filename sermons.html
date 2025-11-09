@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermons - SCAN</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-church"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>SCAN</h1>
+                    <p>Salvation Church for All Nations</p>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ministries.html">Ministries</a></li>
+                    <li><a href="sermons.html" class="active">Sermons</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="give.html">Give</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Recent Sermons</h1>
+            <p>Listen to messages of hope and transformation</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="sermons-filter">
+                <button class="filter-btn active" data-filter="all">All Sermons</button>
+                <button class="filter-btn" data-filter="apostle-mbale">Apostle Mbale</button>
+                <button class="filter-btn" data-filter="guest">Guest Speakers</button>
+            </div>
+
+            <div class="sermons-grid">
+                <div class="sermon-card" data-category="apostle-mbale">
+                    <div class="sermon-header">
+                        <h3>The Power of Faith</h3>
+                        <span class="sermon-date">November 5, 2024</span>
+                    </div>
+                    <div class="sermon-speaker">
+                        <i class="fas fa-user"></i>
+                        <span>Apostle Isaac Mbale</span>
+                    </div>
+                    <p>Exploring how faith can move mountains in our lives and communities.</p>
+                    <div class="sermon-audio">
+                        <audio controls>
+                            <source src="sermons/power-of-faith.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+
+                <div class="sermon-card" data-category="apostle-mbale">
+                    <div class="sermon-header">
+                        <h3>Walking in Victory</h3>
+                        <span class="sermon-date">October 29, 2024</span>
+                    </div>
+                    <div class="sermon-speaker">
+                        <i class="fas fa-user"></i>
+                        <span>Apostle Isaac Mbale</span>
+                    </div>
+                    <p>Understanding our position in Christ and living victoriously.</p>
+                    <div class="sermon-audio">
+                        <audio controls>
+                            <source src="sermons/walking-in-victory.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+
+                <div class="sermon-card" data-category="guest">
+                    <div class="sermon-header">
+                        <h3>Love in Action</h3>
+                        <span class="sermon-date">October 22, 2024</span>
+                    </div>
+                    <div class="sermon-speaker">
+                        <i class="fas fa-user"></i>
+                        <span>Pastor Sarah Chisanga</span>
+                    </div>
+                    <p>Demonstrating God's love through practical actions in our community.</p>
+                    <div class="sermon-audio">
+                        <audio controls>
+                            <source src="sermons/love-in-action.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+
+                <div class="sermon-card" data-category="apostle-mbale">
+                    <div class="sermon-header">
+                        <h3>The Holy Spirit's Guidance</h3>
+                        <span class="sermon-date">October 15, 2024</span>
+                    </div>
+                    <div class="sermon-speaker">
+                        <i class="fas fa-user"></i>
+                        <span>Apostle Isaac Mbale</span>
+                    </div>
+                    <p>Learning to listen and follow the Holy Spirit's direction in daily life.</p>
+                    <div class="sermon-audio">
+                        <audio controls>
+                            <source src="sermons/holy-spirit-guidance.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SCAN</h3>
+                    <p>Salvation Church for All Nations</p>
+                    <p>P.O. Box 216, Karonga</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SCAN. Apostle Isaac Mbale, Founder.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/sermons.js"></script>
+</body>
+</html>
